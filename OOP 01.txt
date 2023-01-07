@@ -1,0 +1,67 @@
+Задача \ Алгоритм (как решение) \ Программа
+1) -> подЗадачу \ подАлгоритм \ подПрограмму
+	1) 
+	...
+	6) 
+2)
+...
+25)
+
+
+sin2x + cos2x == 1;
+sinx => from std Math Library
+cosx => from std Math Library 
+**2 => form Programming Language (Python or Java math.Pow)
++ => form Programming Language
+== => form Programming Language
+
+Base Class - Продукт Питания
+Class - Продукт Питания из Россия, Продукт Питания из Швеции, Продукт Питания из Бразилии
+	Class -> Европейская часть России, Восточная часть России
+	Class -> Юг, Север
+
+Object - the Пирожок ...
+
+
+// Перепись населения
+Base class Human
+Sub Class Man (preWarrior Warrior Pensioner)
+	Warrior.getMilitaryStatus()
+Sub Class Wooman (preMotherhood Motherhood Pensioner)
+	Motherhood.getPregnancyStatus()
+
+
+// Документо оборот в медецине
+Base class Human
+Sub Class Man
+	Man.getBadHabbits()
+Sub Class Wooman
+	Wooman.getPregnancyStatus()
+	
+
+// Документо оборот в офисе
+Class Document
+	data name
+	data path
+	
+	data CreationDate
+	data LastModificationDate
+	
+	Creator creator
+	Owner owner
+	
+	method create
+	method open
+	method delete
+	method read
+	method write
+
+sub class Doc, Table, PDF, Audio, Video, Email, Msg
+Internal, External
+Priority: Low, STD, High, Critical
+
+Creator, Owner, Contributor, Observer, class Approver -> approve [sub class Signer - sign()]
+
+Approver object director, cTO
+
+Doc object financeSummary.create(director);
