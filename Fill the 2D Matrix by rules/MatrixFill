@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class MatrixFill {
+    public static void main(String[] args) {
+
+        System.out.println("Введите четную размерность массива от 2");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int m = n/2 -1;
+        int[][] innerArr = new int[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                innerArr[j][i] = m - Math.min(Math.min(i , j) , Math.min(n-j-1 , n - i - 1));
+
+            }
+        }
+        for (int[] anArr : innerArr) {
+            for (int anAnArr : anArr) {
+                System.out.print(anAnArr + " ");
+            }
+            System.out.println();
+        }
+    }
+}
