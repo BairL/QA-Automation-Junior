@@ -9,11 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-      /*  Lion lion = new Lion();
-        Shark shark = new Shark();
-        Salmon salmon = new Salmon();
-        Nightingale nightingale = new Nightingale();*/
-
         HashMap<String, Integer> animalData = new HashMap<>();
         animalData.put("Lion", 1);
         animalData.put("Shark", 2);
@@ -64,39 +59,4 @@ public class Main {
     }
 
 
-/*
-        switch (Creatures) {
-
-            case lion:
-
-                break;
-            case 2:
-                Shark shark = new Shark();
-                break;
-
-            case 3:
-                Salmon salmon = new Salmon();
-                break;
-
-            case 4:
-                Nightingale nightingale = new Nightingale();
-                break;
-        }
-    }
-   /* public enum Creatures {
-    lion(1), shark(2), salmon(3), nightingale(4);
-
-    private final int CreatureNumber;
-
-    Creatures(int number) {
-
-        CreatureNumber = number;
-    }
-
-    public int getCreatureNumber() {
-        return CreatureNumber;
-
-    }
-
-}*/
 
